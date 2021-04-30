@@ -46,12 +46,16 @@ In this lab, you will:
     
 
 2. Select storage then block volume
+
      
      ![](images/sample1.png)
+
+     
 
     ![Image alt text](images/sample1.png "Image title")
 
 3. Select boot volumes 
+
 
       ![](images/sample2.png)
 
@@ -61,20 +65,28 @@ In this lab, you will:
   
 5. In the boot volume information cross Region copy Target:none that mean the backup is not enabled
 
+
     ![](images/sample3.png)
+
 
 6. Click on edit
 
      ![](images/sample4.png)
-     ![](images/sample5.png)
-     ![](images/sample6.png)
 
     - Name it   sample:webserver_01bv
     - Provide a size
     - Provide the vpu
-    - You can turn on if you desire  the feature AUTO-TUNE PERFORMANCE
-    - Make sure to select you compartment
-    - Choose the backup policies base on your company requirement 
+    
+     ![](images/sample5.png)
+
+
+     - You can turn on if you desire  the feature AUTO-TUNE PERFORMANCE
+     - Choose the backup policies base on your company requirement
+
+
+     ![](images/sample6.png)
+
+     
     - Turn on the cross replication 
     - Select the region where you want your replication to happen
     - Select the Availability Domain
